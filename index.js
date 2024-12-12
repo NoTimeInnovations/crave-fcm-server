@@ -34,6 +34,6 @@ offersRef.on("child_added", async (snapshot) => {
 const PORT = 3000;
 app.listen(PORT, () => {
   log(`Server running on port ${PORT}`);
-  setInterval(autoDeleteExpiredOffers, 10000);
+  setInterval(autoDeleteExpiredOffers, 7200000); //2hr
 });
 
