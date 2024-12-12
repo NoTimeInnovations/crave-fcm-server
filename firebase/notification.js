@@ -1,5 +1,6 @@
 const { fcm } = require("./admin");
 const { formatValidUntil } = require("../utils/dateFormat");
+const log = require("../utils/log");
 
 const sendNewOfferNotification = async (newOffer) => {
   try {
@@ -19,16 +20,16 @@ const sendNewOfferNotification = async (newOffer) => {
     };
 
     const response = await fcm.send(message);
-    console.log("\n\nisValidImage :  ", isValidImage);
+    log("\n\nisValidImage :  ", isValidImage);
     if(response){
-        console.log(
+        log(
             `Notification sent successfully at (${new Date().toLocaleDateString()}: ${new Date().toLocaleTimeString()}) Offer : ${newOffer.dishName} at ${newOffer.hotelName} for just $${newOffer.newPrice}! Valid until ${formatValidUntil(newOffer.validUntil)}`
           );
     }else{
-        console.log("Notification not sent successfully" , response); 
+        log("Notification not sent successfully" , response); 
     }
   } catch (error) {
-    console.error("Error sending notification:", error);
+    log.error("Error sending notification:", error);
   }
 };
 
