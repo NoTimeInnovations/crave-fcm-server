@@ -1,4 +1,4 @@
 {
-    "ignore": ["data/log.json"]
+    "ignore": ["data/log.json" , "data/*" , "data/subscribers.json"]
   }
   

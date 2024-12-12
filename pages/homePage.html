@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <div class="space-x-4">
+        <a href="/log" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Go to Log
+        </a>
+        <a href="/subscribers" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+            Go to Subscribers
+        </a>
+        <a href="/test" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+            Go to Test
+        </a>
+        <button id="quicktest" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">
+            Quick Test
+        </button>
+    </div>
+    <script>
+        document.getElementById('quicktest').addEventListener('click', function() {
+            fetch('/api/test')
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>

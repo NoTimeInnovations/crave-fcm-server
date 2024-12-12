@@ -1,77 +1,612 @@
 [
   {
-    "timestamp": "2024-12-12T13:01:18.949Z",
+    "timestamp": "2024-12-12T17:06:38.597Z",
     "message": "Server running on port 3002",
     "type": "normal"
   },
   {
-    "timestamp": "2024-12-12T13:02:15.357Z",
-    "message": "Server running on port 3002",
-    "type": "normal"
-  },
-  {
-    "timestamp": "2024-12-12T13:02:21.292Z",
-    "message": "Server running on port 3002",
-    "type": "normal"
-  },
-  {
-    "timestamp": "2024-12-12T13:02:34.429Z",
-    "message": "Server running on port 3002",
-    "type": "normal"
-  },
-  {
-    "timestamp": "2024-12-12T13:02:45.419Z",
-    "message": "Server running on port 3002",
-    "type": "normal"
-  },
-  {
-    "timestamp": "2024-12-12T13:03:07.881Z",
-    "message": "Server running on port 3002",
-    "type": "normal"
-  },
-  {
-    "timestamp": "2024-12-12T13:03:14.137Z",
-    "message": "Server running on port 3002",
-    "type": "normal"
-  },
-  {
-    "timestamp": "2024-12-12T13:03:19.557Z",
-    "message": "Server running on port 3002",
-    "type": "normal"
-  },
-  {
-    "timestamp": "2024-12-12T13:03:39.889Z",
-    "message": "Server running on port 3002",
-    "type": "normal"
-  },
-  {
-    "timestamp": "2024-12-12T13:03:44.946Z",
-    "message": "Server running on port 3002",
-    "type": "normal"
-  },
-  {
-    "timestamp": "2024-12-12T13:03:49.762Z",
-    "message": "Server running on port 3002",
-    "type": "normal"
-  },
-  {
-    "timestamp": "2024-12-12T13:03:54.317Z",
-    "message": "Server running on port 3002",
-    "type": "normal"
-  },
-  {
-    "timestamp": "2024-12-12T13:05:40.987Z",
-    "message": "Server running on port 3002",
-    "type": "error"
-  },
-  {
-    "timestamp": "2024-12-12T13:05:54.690Z",
-    "message": "Server running on port 3002",
+    "timestamp": "2024-12-12T17:06:40.161Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $233! Valid until Tomorrow at 09:23 PM",
     "type": "notification"
   },
   {
-    "timestamp": "2024-12-12T13:06:06.805Z",
+    "timestamp": "2024-12-12T17:09:48.379Z",
+    "message": "Token subscribed to all-offers: cJo8D4yhQmEf7gs6oA0hXP:APA91bFDu3z7Zg47IgvWNZ988c9nDUYaacsx7HwKjg1vfgR6HsmR9nEaQllLPGwiCBAxMKQFoD2ZoClkjhLxQPe9cLcDW7AFDuwfOszUEgY03qfkbopoc2w",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:14:06.622Z",
+    "message": "Token unsubscribed from all-offers: cJo8D4yhQmEf7gs6oA0hXP:APA91bFDu3z7Zg47IgvWNZ988c9nDUYaacsx7HwKjg1vfgR6HsmR9nEaQllLPGwiCBAxMKQFoD2ZoClkjhLxQPe9cLcDW7AFDuwfOszUEgY03qfkbopoc2w",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:14:36.368Z",
+    "message": "Token unsubscribed from all-offers: cJo8D4yhQmEf7gs6oA0hXP:APA91bFDeseFR15CeMl-AsAFHMg1Xblh2fQs6PtLlIJ9AtbeYZ_5739h9Din7_hXcsR0E5eaNyevDK57jCt5OGFMLkTrG77FDnTfokr3NOr1m5xsvMiIAwo",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:14:58.865Z",
+    "message": "Token unsubscribed from all-offers: cJo8D4yhQmEf7gs6oA0hXP:APA91bFxhXkh0kf3rB5jIcSTZ4KHDBQ1bV-JhAIzoHXAFWX1CkEduPS0JgR8l8WtG2E37jsRdVXpu3JtCCzFGIzI2S6xG3q0wYVg5o2V45_TP_0nEDLeUw4",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:15:17.337Z",
+    "message": "Token subscribed to all-offers: cJo8D4yhQmEf7gs6oA0hXP:APA91bFDu3z7Zg47IgvWNZ988c9nDUYaacsx7HwKjg1vfgR6HsmR9nEaQllLPGwiCBAxMKQFoD2ZoClkjhLxQPe9cLcDW7AFDuwfOszUEgY03qfkbopoc2w",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:18:13.150Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/5785731868214768590",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:18:18.673Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/4963990143248581830",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:18:39.057Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/2829688507771777220",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:20:04.684Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/3222988260471191127",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:20:33.726Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/5700323896148065137",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:20:53.906Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/8973620886591623840",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:21:03.082Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/94996889852980245",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:21:10.086Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/786253405361674878",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:21:42.391Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/938158053220379797",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:22:01.739Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/615156836855894311",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:22:08.650Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/6972727147957720096",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:22:42.047Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/4176446886313312530",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:23:18.031Z",
+    "message": "Token subscribed to all-offers: eju2cgIo8-cVIl8QR7Lm1g:APA91bE1JSK7GrkepHsvhu51q0ltaXE8nT8gs92Fsh3jQcp0xnplD1c-9zMqy1vZ7t44xn_gnZ_Eam6sBtb4xqfhUQf7_T1oQhbMH4siYP5jllo1WmWpO2I",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:23:18.903Z",
+    "message": "Token subscribed to all-offers: eju2cgIo8-cVIl8QR7Lm1g:APA91bEjjqhrkpOvNQMywhY7_WdsqpxrNHNyfT2jKz0ZbXu173Q_wFkWEGiMKZ-rr67be64JyVNtbMEoNOOESFfzE2fd8TTIc1LNAUrsT5gqJyMCS4tykuY",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:23:27.723Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/563516258960346818",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:23:31.733Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/7652540304697714715",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:24:02.082Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/5947422985401854420",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:24:23.682Z",
+    "message": "Token subscribed to all-offers: eju2cgIo8-cVIl8QR7Lm1g:APA91bHpdSAOFA9-WPFNwyib3TRnceUZBYkl-SQEcnnZPBlcrQxXCdofAJpnBqbUUgzaAjsJc2E_6DDWbRUKugnqe62W7SBx2vETdZt_9nyyLd7-h3hRyx4",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:24:24.468Z",
+    "message": "Token subscribed to all-offers: eju2cgIo8-cVIl8QR7Lm1g:APA91bH_XFZFA40iLPzoY-McMA2ZPavOm923IgB6OmpHPN6CjvNtWcQFPAAJpgjesJwbfiArSvJ_APPhPJpe7_Nm2Lwj_R39OReSrqkVCwUsFxHvKRw437s",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:24:28.492Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/742679951980384888",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:25:19.269Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/3270289438055627273",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:26:08.192Z",
     "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:26:09.644Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $233! Valid until Tomorrow at 09:23 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:26:26.869Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:26:28.504Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $233! Valid until Tomorrow at 09:23 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:27:36.398Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/6638696078420067671",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:27:54.055Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/480923239049793179",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:29:29.720Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/2097552410466851208",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:31:15.162Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/4383168513302784514",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:31:28.499Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/8174567798317828600",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:31:31.855Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/5694497154618314947",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:31:51.572Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/1605462894528383178",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:31:59.844Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/1624875186426174995",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:36:49.062Z",
+    "message": "Token subscribed to all-offers: dIaU48Ee5cI6pUVNnlCISC:APA91bGNTmvvovUtabqRwkPU4IcgfkMzCuVzRmOftyrOLaWGldqzFB4g7lLgQ9MD-uzm1P-u2sd9nzyY5tgrPu7SlpeEHOB0VsbwPIh2odkEIhItJccyChY",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:37:09.431Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/5765525851710251033",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:38:25.481Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:41:07.990Z",
+    "message": "Token subscribed to all-offers: c0_OTPqUzPiRmiEBXN54kN:APA91bHX6EmcmlF6cVjYyiX586VoHvBoDUD8_M98B_6kTCCUn2ra_ZiClPhdoDrZKWZidIsyrM55nNpIr8nK9DWnIEIdcX-LRMYpUijE8s1I1puL5TTYib0",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:42:09.699Z",
+    "message": "Server running on port 3000",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:42:11.452Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:43:43.133Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:43:44.598Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:44:09.352Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/1164508663615828838",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:47:14.808Z",
+    "message": "Token unsubscribed from all-offers: crJtt7YLacS3Co4tslI7s7:APA91bEDP7n63ZV6O83wamso6KupzzQd3TY2TXqMo3byCsRVYk4JdhIjL77MphMo90kg3v0F7GJmwjQsLdl0ntCwOFVWhsngC0sn0wLlOx0ZTyxNyQaENWM",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:47:17.743Z",
+    "message": "Token unsubscribed from all-offers: cJo8D4yhQmEf7gs6oA0hXP:APA91bFDu3z7Zg47IgvWNZ988c9nDUYaacsx7HwKjg1vfgR6HsmR9nEaQllLPGwiCBAxMKQFoD2ZoClkjhLxQPe9cLcDW7AFDuwfOszUEgY03qfkbopoc2w",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:47:19.894Z",
+    "message": "Token unsubscribed from all-offers: eju2cgIo8-cVIl8QR7Lm1g:APA91bE1JSK7GrkepHsvhu51q0ltaXE8nT8gs92Fsh3jQcp0xnplD1c-9zMqy1vZ7t44xn_gnZ_Eam6sBtb4xqfhUQf7_T1oQhbMH4siYP5jllo1WmWpO2I",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:47:21.583Z",
+    "message": "Token unsubscribed from all-offers: eju2cgIo8-cVIl8QR7Lm1g:APA91bEjjqhrkpOvNQMywhY7_WdsqpxrNHNyfT2jKz0ZbXu173Q_wFkWEGiMKZ-rr67be64JyVNtbMEoNOOESFfzE2fd8TTIc1LNAUrsT5gqJyMCS4tykuY",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:47:22.991Z",
+    "message": "Token unsubscribed from all-offers: eju2cgIo8-cVIl8QR7Lm1g:APA91bHpdSAOFA9-WPFNwyib3TRnceUZBYkl-SQEcnnZPBlcrQxXCdofAJpnBqbUUgzaAjsJc2E_6DDWbRUKugnqe62W7SBx2vETdZt_9nyyLd7-h3hRyx4",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:47:25.229Z",
+    "message": "Token unsubscribed from all-offers: eju2cgIo8-cVIl8QR7Lm1g:APA91bH_XFZFA40iLPzoY-McMA2ZPavOm923IgB6OmpHPN6CjvNtWcQFPAAJpgjesJwbfiArSvJ_APPhPJpe7_Nm2Lwj_R39OReSrqkVCwUsFxHvKRw437s",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:47:28.412Z",
+    "message": "Token unsubscribed from all-offers: dIaU48Ee5cI6pUVNnlCISC:APA91bGNTmvvovUtabqRwkPU4IcgfkMzCuVzRmOftyrOLaWGldqzFB4g7lLgQ9MD-uzm1P-u2sd9nzyY5tgrPu7SlpeEHOB0VsbwPIh2odkEIhItJccyChY",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:47:31.728Z",
+    "message": "Token unsubscribed from all-offers: c0_OTPqUzPiRmiEBXN54kN:APA91bHX6EmcmlF6cVjYyiX586VoHvBoDUD8_M98B_6kTCCUn2ra_ZiClPhdoDrZKWZidIsyrM55nNpIr8nK9DWnIEIdcX-LRMYpUijE8s1I1puL5TTYib0",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:47:45.387Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/6527117978378664493",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:47:59.436Z",
+    "message": "Token subscribed to all-offers: c0_OTPqUzPiRmiEBXN54kN:APA91bHX6EmcmlF6cVjYyiX586VoHvBoDUD8_M98B_6kTCCUn2ra_ZiClPhdoDrZKWZidIsyrM55nNpIr8nK9DWnIEIdcX-LRMYpUijE8s1I1puL5TTYib0",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:48:29.710Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/7891784437966077900",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:50:25.391Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:50:28.173Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:50:34.897Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:50:36.677Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:50:43.390Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:50:53.402Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:50:54.986Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:52:23.008Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:52:25.680Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:52:27.244Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T17:59:22.369Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T17:59:23.912Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:01:05.238Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:01:07.079Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:01:15.910Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:01:17.422Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:01:47.299Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/2682294267290627394",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:02:39.294Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:02:41.016Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:02:53.442Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/6087388254257176409",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:03.314Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/8756260791589420751",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:15.128Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:16.809Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:20.296Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:25.213Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/3061082317512574712",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:26.754Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:39.310Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:40.788Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:44.200Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:45.749Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:47.861Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:51.100Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:03:52.834Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:04:00.264Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/4978221110378416721",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:04:31.648Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:04:33.056Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:04:59.902Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:05:01.513Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:05:04.747Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:05:06.377Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:05:08.155Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:05:10.154Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:05:12.049Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:06:07.993Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/4705633835226282325",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:06:15.694Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/3852137705324383068",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:06:22.642Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/5006996953079700588",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:07:26.016Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:07:27.773Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:07:35.783Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:07:37.644Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:07:39.098Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:07:58.321Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:07:59.603Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:08:01.092Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:08:06.632Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/8833108137698328699",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:08:14.747Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/6749225596363678467",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:10:42.598Z",
+    "message": "Error sending custom test notification:Error: Invalid JSON payload received. Unknown name \"icon\" at 'message.notification': Cannot find field.",
+    "type": "error"
+  },
+  {
+    "timestamp": "2024-12-12T18:11:18.147Z",
+    "message": "Server running on port 3002",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:11:19.755Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $23! Valid until Tomorrow at 10:08 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-12T18:11:25.598Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/4033570077159213697",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:11:37.769Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/2064147835392841497",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-12T18:11:48.716Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/3387964289155292156",
     "type": "normal"
   }
 ]

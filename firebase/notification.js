@@ -16,17 +16,16 @@ const sendNewOfferNotification = async (newOffer) => {
       android: {
         priority: "high", 
       },
-      topic: "new-offers",
+      topic: "all-offers",
     };
 
     const response = await fcm.send(message);
-    log("\n\nisValidImage :  ", isValidImage);
     if(response){
-        log(
-            `Notification sent successfully at (${new Date().toLocaleDateString()}: ${new Date().toLocaleTimeString()}) Offer : ${newOffer.dishName} at ${newOffer.hotelName} for just $${newOffer.newPrice}! Valid until ${formatValidUntil(newOffer.validUntil)}`
+        log.notification(
+            `Notification sent successfully at Offer : ${newOffer.dishName} at ${newOffer.hotelName} for just $${newOffer.newPrice}! Valid until ${formatValidUntil(newOffer.validUntil)}`
           );
     }else{
-        log("Notification not sent successfully" , response); 
+        log.error("Notification not sent successfully" + response); 
     }
   } catch (error) {
     log.error("Error sending notification:", error);
