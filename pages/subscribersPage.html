@@ -10,6 +10,9 @@
             fetch('/api/data/subscribers.json')
                 .then(response => response.json())
                 .then(data => {
+                    // Sort subscribers by timestamp in descending order
+                    data.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
                     const subscribersContainer = document.getElementById('subscribers-container');
                     data.forEach(subscriber => {
                         const card = document.createElement('div');

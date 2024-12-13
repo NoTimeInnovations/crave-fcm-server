@@ -608,5 +608,15 @@
     "timestamp": "2024-12-12T18:11:48.716Z",
     "message": "Test notification sent:projects/foodoffers-2cedb/messages/3387964289155292156",
     "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T07:08:45.367Z",
+    "message": "Server running on port 3000",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T07:08:52.372Z",
+    "message": "Notification sent successfully at Offer : New  at new hotel for just $34! Valid until Today at 02:25 PM",
+    "type": "notification"
   }
 ]
