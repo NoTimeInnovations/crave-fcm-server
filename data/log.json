@@ -6,7 +6,162 @@
   },
   {
     "timestamp": "2024-12-13T07:24:35.784Z",
-    "message": "Notification sent successfully at Offer : New  at new hotel for just $34! Valid until Today at 02:25 PM",
+    "message": "Notification sent successfully at Offer : New at new hotel for just $34! Valid until Today at 02:25 PM",
     "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T07:29:13.137Z",
+    "message": "Server running on port 3000",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T07:29:14.624Z",
+    "message": "Notification sent successfully at Offer : New at new hotel for just $34! Valid until Today at 08:55 AM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T07:29:37.632Z",
+    "message": "Server running on port 3000",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T07:29:39.114Z",
+    "message": "Notification sent successfully at Offer : New at new hotel for just $34! Valid until Today at 08:55 AM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T07:30:02.917Z",
+    "message": "Token unsubscribed from all-offers: c0_OTPqUzPiRmiEBXN54kN:APA91bHX6EmcmlF6cVjYyiX586VoHvBoDUD8_M98B_6kTCCUn2ra_ZiClPhdoDrZKWZidIsyrM55nNpIr8nK9DWnIEIdcX-LRMYpUijE8s1I1puL5TTYib0",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T07:30:06.159Z",
+    "message": "Token unsubscribed from all-offers: c0_OTPqUzPiRmiEBXN54kN:APA91bHX6EmcmlF6cVjYyiX586VoHvBoDUD8_M98B_6kTCCUn2ra_ZiClPhdoDrZKWZidIsyrM55nNpIr8nK9DWnIEIdcX-LRMYpUijE8s1I1puL5TTYib0",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T07:30:22.356Z",
+    "message": "Token subscribed to all-offers: cNuBjVClXxgIVi0-n5Us31:APA91bHj-gfue7p0Wg1tupVQavUtCwSKhsiXKTHvY5lQHIbPgE-RctSgRCJeqLk1hoRKcPUBZ8oavMT2Nq0SC-tZFROeAI8Hn1BnqMAMkL_EsnadkQCBJjU",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T07:58:05.992Z",
+    "message": "Token subscribed to all-offers: f7h3sl2bU4ycEJvhX7E2Qm:APA91bHpqpSgODTo3S0cJNPdv99wRhxcOcYu_cklZy0_YA_9ypyuzLSmJFJNWdqFxXYwDBu5AymQD0OXc9B6_x6j381DplB0yT50hD_suzqxh1PMpbGswhU",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T08:00:27.727Z",
+    "message": "Token subscribed to all-offers: f7h3sl2bU4ycEJvhX7E2Qm:APA91bE0h4M3tU4_P54SNrmHW3xwYB0sHmJh9K2cYj2VWd1kNfPw7V7wYcdQQTN1GsWboYHdwkbVfXSBmuZfIegfizSuNMbo4itZkfS3Ced9QY3BVJxHNvo",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T08:01:42.832Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/4162577207490840242",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T08:05:14.584Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/2183794285953591030",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T09:08:14.357Z",
+    "message": "Token subscribed to all-offers: eSoI0pOF2neS69gVSQ28nQ:APA91bGAeIivI400Fdy2DCl4wFw4O-2FLk7TR9ekjhplxyabnXKrWns_0TlT6YXSsvPLgBe5b6yOrh5ulUOeuiTpNjWfhrtO7EujdDaA-EUaRLMVeQXuJg0",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T09:29:37.762Z",
+    "message": "Offer with ID -ODynMyOF_5Ighlr_xL8 has been deleted.",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T11:20:15.190Z",
+    "message": "Token subscribed to all-offers: fVSbA9GEnm1pYW8lOBXYQC:APA91bFUSG9vtb_GeldUy_MgA0yurqMQ8PAm2Stt-1B3DOIqaTulEONQA0UVmF6pZfBLZ8G0rDl10f6exq-Kqlv_pMeNrdvMOvkld2W072-vqF4pu6VIcf0",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T11:36:39.434Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/7546231256186245773",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T11:38:53.740Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/6267822623688740952",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T11:40:15.315Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/6448027051736601322",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T11:40:55.777Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/482362328272276943",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T11:41:13.311Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/3333937082698060328",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T11:41:25.308Z",
+    "message": "Custom test notification sent:projects/foodoffers-2cedb/messages/2349911888163010953",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T12:24:17.758Z",
+    "message": "Token subscribed to all-offers: e3BnhnmdYQ5wmFiYQ71n3P:APA91bGi3PnttxHP2jL9vD_Zai0VzsUjwMWth8VCC-6wqwktB5JjR9RX6WqXlYTIf-B-iG-N4sA3X0A4rfCZyHhJFfsuch3UpXqJ9p3DBduxB1tAFz_LNeU",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T12:29:50.193Z",
+    "message": "Notification sent successfully at Offer : New at new hotel for just $45! Valid until Today at 08:29 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T12:30:18.730Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/3913574038553098334",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T12:32:19.886Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/7891384384067127181",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T12:35:15.124Z",
+    "message": "Test notification sent:projects/foodoffers-2cedb/messages/1828709676071566708",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T12:36:48.523Z",
+    "message": "Token subscribed to all-offers: fxicdXLnMYkbSLWRPbRdMR:APA91bFXlBJMtnSBv1o1Txwr2q6oc_Hs7_D3V9dUt8e0kk1qzIWVDJyOJ_f4_ybrzM94aFyQz2dkwDBoawrREyPmLpaWuOsLw9iZiRhmxOTejuz-AGHxVps",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T12:37:43.239Z",
+    "message": "Notification sent successfully at Offer : new at new hotel for just $5546! Valid until Today at 07:37 PM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T14:08:27.058Z",
+    "message": "Token subscribed to all-offers: foxsx_UWitM1supK57e8hW:APA91bH8ilT7S9xc4dkGgo_RwwufEzV2gX-CG2roUTknElMxSIAkRHGXiiAgRijheQyclNb9FvRGdLFhUD_OF_20_mH4dXh7-g0mtuglvxR7DZ6Da97ZgnM",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T17:36:22.778Z",
+    "message": "Token subscribed to all-offers: dNW3j7BMuXjNyOJx17pItW:APA91bGB6CzV0jmdVc0UeBpMDTK54qm1t9HuwSHCqih-08B5s0WlN8s_sArKb1qlnX8KVcS8C3n_mHO9lfJvLk41GPxAkoKzY4uhLj6YaYIPRbfw57sTJkk",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T18:15:58.424Z",
+    "message": "Token subscribed to all-offers: cNuBjVClXxgIVi0-n5Us31:APA91bHCr6ZnYXxnepzrQCtvcL60orPe2NX-HTNP3KIjKYVZqhRQkaRlmwWJqPi_1fH2YFldI96nYjGWwHaConKc4lyonhOfMDh5d3dzUhxLvRzhs35h0n0",
+    "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T19:30:23.832Z",
+    "message": "Server running on port 3000",
+    "type": "normal"
   }
 ]
