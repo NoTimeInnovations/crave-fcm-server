@@ -618,5 +618,20 @@
     "timestamp": "2024-12-13T07:08:52.372Z",
     "message": "Notification sent successfully at Offer : New  at new hotel for just $34! Valid until Today at 02:25 PM",
     "type": "notification"
+  },
+  {
+    "timestamp": "2024-12-13T07:16:48.047Z",
+    "message": "Server running on port 3000",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T07:16:53.685Z",
+    "message": "Server running on port 3000",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T07:16:55.065Z",
+    "message": "Notification sent successfully at Offer : New  at new hotel for just $34! Valid until Today at 02:25 PM",
+    "type": "notification"
   }
 ]
