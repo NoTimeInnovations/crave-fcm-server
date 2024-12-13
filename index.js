@@ -24,8 +24,8 @@ offersRef.on("child_added", async (snapshot) => {
   const newOffer = snapshot.val();
   if (
     newOffer &&
-    newOffer.validUntil &&
-    new Date(newOffer.validUntil) > new Date()
+    newOffer.toTime &&
+    new Date(newOffer.toTime) > new Date()
   ) {
     await notification.sendNewOfferNotification(newOffer);
   }
