@@ -10,25 +10,25 @@ const sendNewOfferNotification = async (newOffer) => {
     const message = {
       notification: {
         title: "New Offer!",
-        body: `Get ${newOffer.dishName} at ${newOffer.hotelName} for just $${newOffer.newPrice}! Valid until ${formatValidUntil(newOffer.validUntil)}`,
+        body: `Get ${newOffer.dishName} at ${newOffer.hotelName} for just $${newOffer.newPrice}!`,
         ...(isValidImage && { image: newOffer.dishImage }),
       },
       android: {
         priority: "high", 
       },
-      topic: "all-offers",
+      topic: "all-offers"
     };
 
     const response = await fcm.send(message);
     if(response){
         log.notification(
-            `Notification sent successfully at Offer : ${newOffer.dishName} at ${newOffer.hotelName} for just $${newOffer.newPrice}! Valid until ${formatValidUntil(newOffer.validUntil)}`
+            `Notification sent successfully at Offer : ${newOffer.dishName} at ${newOffer.hotelName} for just $${newOffer.newPrice}!`
           );
     }else{
         log.error("Notification not sent successfully" + response); 
     }
   } catch (error) {
-    log.error("Error sending notification:", error);
+    log.error("Error sending notification:" + error);
   }
 };
 
