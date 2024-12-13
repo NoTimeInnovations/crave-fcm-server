@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2024-12-13T07:24:29.074Z",
+    "message": "Server running on port 3000",
+    "type": "normal"
+  },
+  {
+    "timestamp": "2024-12-13T07:24:35.784Z",
+    "message": "Notification sent successfully at Offer : New  at new hotel for just $34! Valid until Today at 02:25 PM",
+    "type": "notification"
+  }
+]
