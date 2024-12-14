@@ -1,52 +1,13 @@
 [
   {
-    "token": "cNuBjVClXxgIVi0-n5Us31:APA91bHj-gfue7p0Wg1tupVQavUtCwSKhsiXKTHvY5lQHIbPgE-RctSgRCJeqLk1hoRKcPUBZ8oavMT2Nq0SC-tZFROeAI8Hn1BnqMAMkL_EsnadkQCBJjU",
-    "timestamp": "2024-12-13T07:30:21.571Z",
-    "topic": "all-offers"
-  },
-  {
-    "token": "f7h3sl2bU4ycEJvhX7E2Qm:APA91bHpqpSgODTo3S0cJNPdv99wRhxcOcYu_cklZy0_YA_9ypyuzLSmJFJNWdqFxXYwDBu5AymQD0OXc9B6_x6j381DplB0yT50hD_suzqxh1PMpbGswhU",
-    "timestamp": "2024-12-13T07:58:05.066Z",
-    "topic": "all-offers"
-  },
-  {
-    "token": "f7h3sl2bU4ycEJvhX7E2Qm:APA91bE0h4M3tU4_P54SNrmHW3xwYB0sHmJh9K2cYj2VWd1kNfPw7V7wYcdQQTN1GsWboYHdwkbVfXSBmuZfIegfizSuNMbo4itZkfS3Ced9QY3BVJxHNvo",
-    "timestamp": "2024-12-13T08:00:26.992Z",
-    "topic": "all-offers"
-  },
-  {
-    "token": "eSoI0pOF2neS69gVSQ28nQ:APA91bGAeIivI400Fdy2DCl4wFw4O-2FLk7TR9ekjhplxyabnXKrWns_0TlT6YXSsvPLgBe5b6yOrh5ulUOeuiTpNjWfhrtO7EujdDaA-EUaRLMVeQXuJg0",
-    "timestamp": "2024-12-13T09:08:13.136Z",
-    "topic": "all-offers"
-  },
-  {
-    "token": "fVSbA9GEnm1pYW8lOBXYQC:APA91bFUSG9vtb_GeldUy_MgA0yurqMQ8PAm2Stt-1B3DOIqaTulEONQA0UVmF6pZfBLZ8G0rDl10f6exq-Kqlv_pMeNrdvMOvkld2W072-vqF4pu6VIcf0",
-    "timestamp": "2024-12-13T11:20:14.340Z",
-    "topic": "all-offers"
-  },
-  {
-    "token": "e3BnhnmdYQ5wmFiYQ71n3P:APA91bGi3PnttxHP2jL9vD_Zai0VzsUjwMWth8VCC-6wqwktB5JjR9RX6WqXlYTIf-B-iG-N4sA3X0A4rfCZyHhJFfsuch3UpXqJ9p3DBduxB1tAFz_LNeU",
-    "timestamp": "2024-12-13T12:24:16.640Z",
-    "topic": "all-offers"
-  },
-  {
-    "token": "fxicdXLnMYkbSLWRPbRdMR:APA91bFXlBJMtnSBv1o1Txwr2q6oc_Hs7_D3V9dUt8e0kk1qzIWVDJyOJ_f4_ybrzM94aFyQz2dkwDBoawrREyPmLpaWuOsLw9iZiRhmxOTejuz-AGHxVps",
-    "timestamp": "2024-12-13T12:36:47.643Z",
-    "topic": "all-offers"
-  },
-  {
-    "token": "foxsx_UWitM1supK57e8hW:APA91bH8ilT7S9xc4dkGgo_RwwufEzV2gX-CG2roUTknElMxSIAkRHGXiiAgRijheQyclNb9FvRGdLFhUD_OF_20_mH4dXh7-g0mtuglvxR7DZ6Da97ZgnM",
-    "timestamp": "2024-12-13T14:08:26.239Z",
-    "topic": "all-offers"
-  },
-  {
-    "token": "dNW3j7BMuXjNyOJx17pItW:APA91bGB6CzV0jmdVc0UeBpMDTK54qm1t9HuwSHCqih-08B5s0WlN8s_sArKb1qlnX8KVcS8C3n_mHO9lfJvLk41GPxAkoKzY4uhLj6YaYIPRbfw57sTJkk",
-    "timestamp": "2024-12-13T17:36:22.022Z",
-    "topic": "all-offers"
-  },
-  {
-    "token": "cNuBjVClXxgIVi0-n5Us31:APA91bHCr6ZnYXxnepzrQCtvcL60orPe2NX-HTNP3KIjKYVZqhRQkaRlmwWJqPi_1fH2YFldI96nYjGWwHaConKc4lyonhOfMDh5d3dzUhxLvRzhs35h0n0",
-    "timestamp": "2024-12-13T18:15:57.720Z",
-    "topic": "all-offers"
+    "token": {
+      "endpoint": "https://fcm.googleapis.com/fcm/send/cClyw9mHvIY:APA91bHemUtESfbFyWpOs50JR-hRrW4lBXQ5WrjqDEQ9fDfw7lorHad6vxGseqn2oulVHzZxEgUKWu1frnHyLT4HbySpllDvciFgLSy0GSTDCqbY3rQ60-nLTp08Jvg0WgxSY7LvtDOS",
+      "expirationTime": null,
+      "keys": {
+        "p256dh": "BNCB-d__O2ioWOGDD1kKlTs3LYdYcZHfYrjqQ3i166M3P61QN5ADyPjOaTHbu9YZf-_MoTks4M9x7MBOsqtDzFw",
+        "auth": "PSEa4ZsHb2kuJs1RqTgWTw"
+      }
+    },
+    "timestamp": "2024-12-14T08:53:07.489Z"
   }
 ]

@@ -1,12 +1,18 @@
 const { fcm } = require("./admin");
 const { formatValidUntil } = require("../utils/dateFormat");
 const log = require("../utils/log");
+const webPush = require("../web-push/push.js");
+const { readSubscribers } = require("../utils/helper");
 
 const sendNewOfferNotification = async (newOffer) => {
   try {
-    const isValidImage =
-      newOffer.dishImage && newOffer.dishImage.length < 500; // Ensure the image URL is within a reasonable size
+    // Validate image URL size
+    const isValidImage = newOffer.dishImage && newOffer.dishImage.length < 500;
 
+    // Retrieve all subscribers
+    const subscribers = readSubscribers() || [];
+
+    // Prepare the notification message
     const message = {
       notification: {
         title: "New Offer!",
@@ -14,21 +20,36 @@ const sendNewOfferNotification = async (newOffer) => {
         ...(isValidImage && { image: newOffer.dishImage }),
       },
       android: {
-        priority: "high", 
+        priority: "high",
       },
-      topic: "all-offers"
-    };
+    };   
 
-    const response = await fcm.send(message);
-    if(response){
-        log.notification(
-            `Notification sent successfully at Offer : ${newOffer.dishName} at ${newOffer.hotelName} for just $${newOffer.newPrice}!`
-          );
-    }else{
-        log.error("Notification not sent successfully" + response); 
-    }
+    // Send notifications to all subscribers asynchronously
+    const notificationResults = await Promise.all(
+      subscribers.map(async (subscriber) => {
+        const sub = subscriber.token;
+        
+        try {
+          await webPush.sendNotification(sub, JSON.stringify(message));
+          // log.notification(`Notification sent to subscriber`);
+          return { success: true, subscriber: sub };
+        } catch (err) {
+          // log.error(`Failed to send notification to ${sub}: ${err.message}`);
+          return { success: false, subscriber: sub, error: err.message };
+        }
+      })
+    );
+
+    // Aggregate and log the results
+    const successCount = notificationResults.filter((res) => res.success).length;
+    const failureCount = notificationResults.length - successCount;
+
+    // log.notification(
+    //   `Notification Summary: ${successCount} sent, ${failureCount} failed.`
+    // );
+
   } catch (error) {
-    log.error("Error sending notification:" + error);
+    log.error(`Error sending new offer notification: ${error.message}`);
   }
 };
 

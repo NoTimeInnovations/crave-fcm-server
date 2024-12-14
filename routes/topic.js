@@ -1,37 +1,8 @@
 const express = require('express');
 const { fcm } = require('../firebase/admin');
 const log = require('../utils/log');
-const fs = require('fs');
-const path = require('path');
-
+const { readSubscribers, writeSubscribers } = require('../utils/helper');
 const router = express.Router();
-
-// Path to subscribers data file
-const subscribersFilePath = path.join(__dirname, '../data/subscribers.json');
-
-// Helper function to read subscribers from file
-const readSubscribers = () => {
-  try {
-    if (fs.existsSync(subscribersFilePath)) {
-      const data = fs.readFileSync(subscribersFilePath, 'utf8');
-      return data ? JSON.parse(data) : [];
-    }
-    return [];
-  } catch (error) {
-    log.error(`Error reading subscribers file: ${error.message}`);
-    throw new Error('Failed to read subscribers file');
-  }
-};
-
-// Helper function to write subscribers to file
-const writeSubscribers = (subscribers) => {
-  try {
-    fs.writeFileSync(subscribersFilePath, JSON.stringify(subscribers, null, 2));
-  } catch (error) {
-    log.error(`Error writing to subscribers file: ${error.message}`);
-    throw new Error('Failed to write to subscribers file');
-  }
-};
 
 // Subscribe user to a topic
 router.post('/subscribe', async (req, res) => {
@@ -46,18 +17,18 @@ router.post('/subscribe', async (req, res) => {
 
   try {
     // Subscribe the token to the FCM topic
-    await fcm.subscribeToTopic([token], topic);
+    // await fcm.subscribeToTopic([token], topic);
 
     // Read the existing subscribers from the file
     const subscribers = readSubscribers();
 
     // Check if token is already subscribed
-    if (subscribers.some(subscriber => subscriber.token === token)) {
+    if (subscribers.some(subscriber => subscriber.token.keys.auth === token.keys.auth)) {
       return res.status(200).json({ message: 'Token is already subscribed' });
     }
 
     // Add new subscriber
-    subscribers.push({ token, timestamp, topic });
+    subscribers.push({ token, timestamp });
 
     // Write updated list of subscribers back to the file
     writeSubscribers(subscribers);
