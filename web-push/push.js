@@ -34,11 +34,11 @@ const message = {
   },
 };
 
-const subscribers = readSubscribers() || [];
+// const subscribers = readSubscribers() || [];
 
-webPush
-  .sendNotification(subscribers[0].token, JSON.stringify(message))
-  .then(() => console.log("Notification sent"))
-  .catch((err) => console.error("Error sending notification:", err));
+// webPush
+//   .sendNotification(subscribers[0].token, JSON.stringify(message))
+//   .then(() => console.log("Notification sent"))
+//   .catch((err) => console.error("Error sending notification:", err));
 
 module.exports = webPush;
