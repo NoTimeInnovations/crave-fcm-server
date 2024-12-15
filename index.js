@@ -16,24 +16,20 @@ app.use(cors("*"));
 app.use("/api/topic", tokenRoutes);
 app.use("/api", testRoutes);
 app.use("/api", dataRoute);
-app.use('/',pagesRoutes)
+app.use("/", pagesRoutes);
 
 // Listen for new offers in Firebase Realtime Database
 const offersRef = db.ref("offers");
 offersRef.on("child_added", async (snapshot) => {
   const newOffer = snapshot.val();
-  if (
-    newOffer &&
-    newOffer.toTime &&
-    new Date(newOffer.toTime) > new Date()
-  ) {
-    await notification.sendNewOfferNotification(newOffer);
+  if (newOffer && newOffer.toTime && new Date(newOffer.toTime) > new Date()) {
+    // await notification.sendNewOfferNotification(newOffer);
   }
 });
 
 const PORT = 3002;
 app.listen(PORT, () => {
+  autoDeleteExpiredOffers();
   log(`Server running on port ${PORT}`);
   setInterval(autoDeleteExpiredOffers, 7200000); //2hr
 });
-

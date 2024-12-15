@@ -28,7 +28,7 @@ const sub = {
 const message = {
   notification: {
     title: "New Offer!",
-    body: "Get Chicken Biryani at Paradise",
+    body: "Testing 123",
     image:
       "https://imgs.search.brave.com/AfJdINvn7bzoPvQLAXYEHDdHA0uNcjJMp_-MRVcEjkg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9teWZv/b2RzdG9yeS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDcvR2hlZS1SaWNl/LTEuanBn",
   },
@@ -36,9 +36,11 @@ const message = {
 
 // const subscribers = readSubscribers() || [];
 
-// webPush
-//   .sendNotification(subscribers[0].token, JSON.stringify(message))
-//   .then(() => console.log("Notification sent"))
-//   .catch((err) => console.error("Error sending notification:", err));
+// subscribers.forEach((subscriber) => {
+//   webPush
+//     .sendNotification(subscriber.token, JSON.stringify(message))
+//     .then(() => console.log("Notification sent to", subscriber.token))
+//     .catch((err) => console.error("Error sending notification to", subscriber.token, ":", err));
+// });
 
 module.exports = webPush;

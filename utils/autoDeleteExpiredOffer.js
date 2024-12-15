@@ -34,7 +34,7 @@ async function autoDeleteExpiredOffers() {
     const now = new Date();
 
     offers.forEach(offer => {
-        if (new Date(offer.validUntil) < now) {
+        if (new Date(offer.toTime) < now) {
             deleteOffer(offer.id);
         }
     });
