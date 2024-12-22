@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const { db } = require("./firebase/admin");
+const { fdb, db } = require("./firebase/admin");
 const notification = require("./firebase/notification");
 const tokenRoutes = require("./routes/topic");
 const testRoutes = require("./routes/test");
@@ -37,12 +37,16 @@ async function processOffersQueue() {
 
     try {
       console.log("Processing offer:", offer.id);
-      await updateGitHubJson(offer);
+      const offersCollection = fdb.collection("offers");
+      await offersCollection.doc(offer.id).set({
+        id: offer.id,
+        ...offer,
+      });
     } catch (error) {
       console.error("Failed to process offer:", offer.id, error.message);
     }
 
-    await sleep(1000);
+    await sleep(1000); 
   }
 
   isProcessingQueue = false;
