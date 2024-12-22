@@ -1,3 +1,4 @@
 node_modules/
 data/log.json
 firebase/serviceAccountKey.json
+.env

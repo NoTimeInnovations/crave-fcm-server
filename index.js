@@ -10,7 +10,10 @@ const autoDeleteExpiredOffers = require("./utils/autoDeleteExpiredOffer");
 const pagesRoutes = require("./routes/pages");
 const xlsx = require("xlsx");
 const fs = require("fs");
+const { updateGitHubJson } = require("./github/updateGithubJson");
+const dotenv = require("dotenv");
 
+dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors("*"));
@@ -20,40 +23,38 @@ app.use("/api", testRoutes);
 app.use("/api", dataRoute);
 app.use("/", pagesRoutes);
 
-// Listen for new offers in Firebase Realtime Database
+const offersQueue = [];
+let isProcessingQueue = false;
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+async function processOffersQueue() {
+  if (isProcessingQueue) return;
+
+  isProcessingQueue = true;
+
+  while (offersQueue.length > 0) {
+    const offer = offersQueue.shift();
+
+    try {
+      console.log("Processing offer:", offer.id);
+      await updateGitHubJson(offer);
+    } catch (error) {
+      console.error("Failed to process offer:", offer.id, error.message);
+    }
+
+    await sleep(1000);
+  }
+
+  isProcessingQueue = false;
+}
+
 const offersRef = db.ref("offers");
-offersRef.on("child_added", async (snapshot) => {
+offersRef.on("child_added", (snapshot) => {
   const newOffer = snapshot.val();
 
   if (newOffer) {
-    const filePath = "data/offers.xlsx";
-
-    // Check if the file exists
-    let workbook;
-    if (fs.existsSync(filePath)) {
-      // Read existing file
-      workbook = xlsx.readFile(filePath);
-    } else {
-      // Create a new workbook with an "Offers" sheet
-      workbook = xlsx.utils.book_new();
-      workbook.SheetNames.push("Offers");
-      workbook.Sheets["Offers"] = xlsx.utils.json_to_sheet([]);
-      xlsx.writeFile(workbook, filePath);
-    }
-
-    // Read the "Offers" sheet
-    const worksheet = workbook.Sheets["Offers"];
-    const data = xlsx.utils.sheet_to_json(worksheet);
-
-    // Add the new offer to the data
-    data.push(newOffer);
-
-    // Convert data back to a sheet and save it to the file
-    const updatedSheet = xlsx.utils.json_to_sheet(data);
-    workbook.Sheets["Offers"] = updatedSheet;
-    xlsx.writeFile(workbook, filePath);
-
-    log("New offer saved to offers.xlsx");
+    offersQueue.push({ ...newOffer, id: snapshot.key });
+    processOffersQueue();
   }
 });
 
